@@ -1,4 +1,4 @@
-const { Product } = require("./model");
+const Product = require("./models");
 
 class MongoProductService {
   static async createProduct(data) {

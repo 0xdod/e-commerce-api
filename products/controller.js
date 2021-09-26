@@ -1,4 +1,4 @@
-const { MongoProductService } = require("./service");
+const { MongoProductService } = require("./services");
 
 class Controller {
   static async create(req, res) {
