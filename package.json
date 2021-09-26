@@ -4,7 +4,7 @@
   "description": "An api for an eshop",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest ./**/tests/*.test.js",
     "start": "node index.js",
     "dev": "nodemon node index.js"
   },
@@ -12,11 +12,14 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "express-validator": "^6.12.1",
     "mongoose": "^6.0.7",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
     "dotenv": "^10.0.0",
-    "nodemon": "^2.0.13"
+    "jest": "^27.2.2",
+    "nodemon": "^2.0.13",
+    "supertest": "^6.1.6"
   }
 }

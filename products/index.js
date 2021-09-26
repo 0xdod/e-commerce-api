@@ -1,3 +1,5 @@
-const Controller = require("./controller");
+const router = require("./routes");
 
-module.exports.create = Controller.create;
+module.exports = {
+  router,
+};
